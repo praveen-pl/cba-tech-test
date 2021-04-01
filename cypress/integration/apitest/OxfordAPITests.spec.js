@@ -7,8 +7,8 @@ context('Oxford API Tests', () => {
                 url: "https://od-api.oxforddictionaries.com/api/v2/entries/en-gb/insurance",
                 headers:
                 {
-                    'app_id': '5f8d1ffd',
-                    'app_key': '3a03596f685fc7244bb53655a5c175d2'
+                    'app_id': Cypress.env('app_id'),
+                    'app_key': Cypress.env('app_key')
                 },
                 qs:
                 {
@@ -26,8 +26,8 @@ context('Oxford API Tests', () => {
                 url: "https://od-api.oxforddictionaries.com/api/v2/entries/en-gb/insurance",
                 headers:
                 {
-                    'app_id': '5f8d1ffd',
-                    'app_key': '3a03596f685fc7244bb53655a5c175d2'
+                    'app_id': Cypress.env('app_id'),
+                    'app_key': Cypress.env('app_key')
                 },
                 qs:
                 {
@@ -46,8 +46,8 @@ context('Oxford API Tests', () => {
                 url: "https://od-api.oxforddictionaries.com/api/v2/entries/en-gb/insurance1",
                 headers:
                 {
-                    'app_id': '5f8d1ffd',
-                    'app_key': '3a03596f685fc7244bb53655a5c175d2'
+                    'app_id': Cypress.env('app_id'),
+                    'app_key': Cypress.env('app_key')
                 },
                 qs:
                 {
@@ -66,8 +66,8 @@ context('Oxford API Tests', () => {
                 url: "https://od-api.oxforddictionaries.com/api/v2/translations/en/FR/Test",
                 headers:
                 {
-                    'app_id': '5f8d1ffd',
-                    'app_key': '3a03596f685fc7244bb53655a5c175d2'
+                    'app_id': Cypress.env('app_id'),
+                    'app_key': Cypress.env('app_key')
                 },
                 qs:
                 {
@@ -85,8 +85,8 @@ context('Oxford API Tests', () => {
                 url: "https://od-api.oxforddictionaries.com/api/v2/translations/en/ar/Test",
                 headers:
                 {
-                    'app_id': '5f8d1ffd',
-                    'app_key': '3a03596f685fc7244bb53655a5c175d2'
+                    'app_id': Cypress.env('app_id'),
+                    'app_key': Cypress.env('app_key')
                 },
                 qs:
                 {
@@ -98,5 +98,5 @@ context('Oxford API Tests', () => {
             });
     })
 
-    // as per documentation it does not support translation API does not throw status 400
+    // as per documentation translation API does not throw status 400
 });

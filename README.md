@@ -10,7 +10,7 @@ Need to install [Node.JS](https://nodejs.org/en/)
 ## Instructions to run the test
 - Clone the repo from github [link](https://github.com/praveen-pl/cba-tech-test.git) 
 - Open the repo folder in Visual studio code
-- Open the terminal and run below command to install the npm packages
+- Open the terminal make sure you are there in the root folder of the repo and run below command to install the npm packages
 ```
 npm install
 ```

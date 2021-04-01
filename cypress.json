@@ -1,4 +1,8 @@
 {
     "baseUrl": "https://www.commbank.com.au/",
-    "chromeWebSecurity": true
+    "chromeWebSecurity": true,
+    "env": {
+        "app_id": "5f8d1ffd",
+        "app_key": "3a03596f685fc7244bb53655a5c175d2"
+    }
 }

@@ -7,7 +7,7 @@ Given(`I am in comm bank home page on {string}`, (viewport) => {
 
 When(`I click on {string} tab in the top header on {string}`, (tabname, viewport) => {
     // check the breaking point for desktop vs mobile view
-    // based on that check of the viewport
+    // based on that add check for more viewport here for mobile view
     if (viewport == 'iphone-xr') {
         cy.get('.icon-menu').click();
         switch (tabname) {
